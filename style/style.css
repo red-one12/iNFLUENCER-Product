@@ -32,7 +32,7 @@ html, body{
 
 /* header is starting...  */
 header{
-    background-color: bisque;
+    /* background-color: bisque; */
     padding: 87px 100px;
 }
 nav{
@@ -63,4 +63,35 @@ ul i{
 li a{
     text-decoration: none;
     color: black;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.hero-section .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
+    width: 50%;
+}
+.hero-section .left h1{
+    font-size: 52px;
+    font-weight: 800;
+}
+.hero-section .left h1 span{
+    color: #E02C6D;
+}
+.hero-section .left p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.459);
+}
+.hero-section .right{
+    width: 50%;
+}
+.hero-section .right img{
+    width: 100%;
 }
